@@ -1,0 +1,51 @@
+{
+  "short_name": "RevisIA",
+  "name": "RevisIA_H24 — Révision Académique IA",
+  "description": "Plateforme intelligente de révision pour étudiants universitaires de Lomé — IA, quiz, corrections, cours.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui", "browser"],
+  "orientation": "portrait",
+  "theme_color": "#0F172A",
+  "background_color": "#07101E",
+  "categories": ["education", "productivity"],
+  "lang": "fr",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Assistant IA",
+      "short_name": "IA",
+      "description": "Ouvrir l'assistant IA RevisIA_H24",
+      "url": "/?view=ai-chat",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mes Cours",
+      "short_name": "Cours",
+      "description": "Accéder à mes cours",
+      "url": "/?view=sessions",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}

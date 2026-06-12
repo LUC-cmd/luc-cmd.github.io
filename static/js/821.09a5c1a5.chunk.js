@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkfrontend_ul_smart_campus=self.webpackChunkfrontend_ul_smart_campus||[]).push([[821],{8821(e,A,r){r.d(A,{default:()=>a.A});var a=r(2207);a.A.Axios,a.A.AxiosError,a.A.CanceledError,a.A.isCancel,a.A.CancelToken,a.A.VERSION,a.A.all,a.A.Cancel,a.A.isAxiosError,a.A.spread,a.A.toFormData,a.A.AxiosHeaders,a.A.HttpStatusCode,a.A.formToJSON,a.A.getAdapter,a.A.mergeConfig,a.A.create}}]);
+//# sourceMappingURL=821.09a5c1a5.chunk.js.map

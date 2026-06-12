@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#f5f5f5"/>
+
+  <!-- REVISIA Text -->
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#0A4B9B" letter-spacing="2">
+    REVISIA
+  </text>
+
+  <!-- H24 Text -->
+  <text x="460" y="130" font-family="Arial, sans-serif" font-size="90" font-weight="bold" fill="#FF6B35" letter-spacing="4">
+    H24
+  </text>
+
+  <!-- Circular Icon -->
+  <g transform="translate(650, 100)">
+    <!-- Top Arc -->
+    <path d="M -50 -50 A 50 50 0 0 1 50 -50" stroke="#0A4B9B" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <!-- Bottom Arc -->
+    <path d="M 50 50 A 50 50 0 0 1 -50 50" stroke="#0A4B9B" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <!-- Top Dot -->
+    <circle cx="0" cy="-55" r="12" fill="#FF6B35"/>
+
+    <!-- Right Dot -->
+    <circle cx="55" cy="0" r="12" fill="#FF6B35"/>
+
+    <!-- Bottom Dot -->
+    <circle cx="0" cy="55" r="12" fill="#FF6B35"/>
+
+    <!-- Left Dot -->
+    <circle cx="-55" cy="0" r="12" fill="#FF6B35"/>
+  </g>
+</svg>
